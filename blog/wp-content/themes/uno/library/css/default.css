@@ -1,0 +1,35 @@
+/* Default */
+
+@import url("../../../base/library/css/default.css");
+
+#access {
+	background: none;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#singlecontent, 
+.footerwidget, 
+.copytext {
+	border-top: 1px solid #ddd;
+}
+#commentsbox {
+	border-top: 1px dotted #ddd;
+}
+#footer, 
+#footer a,
+h2.title {
+	color: #aaa;
+}
+div.meta a, 
+.entry-date,
+.postmetadata,
+.postmetadata a { 
+	color: #999;
+}
+div.meta a.title {
+	color: #000;
+}
+#indicator a {
+	background: url(../../images/circlefills.png) no-repeat;
+	text-indent: -9999em;
+}

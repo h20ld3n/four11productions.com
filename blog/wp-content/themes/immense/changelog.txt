@@ -1,0 +1,23 @@
+== Changelog ==
+These are the changes seen by Immense since it was first available for public download.
+
+= Version 2.0 (Nov 16, 2011) =
+	* Enhancements:
+		** adapted Responsive Design
+		** Blog posts now support Post Formats
+		** Theme Options now moved to Appearance menu
+
+= Version 1.1.1 (July 30, 2011) =
+	* Bugfix:
+		** No collections bug fixed.
+
+= Version 1.1 (June 22, 2011) =
+	* Enhancements:
+		** Slideshow options like autoplay, slideshow effect, slideshow interval, transition speed.
+
+	* Bugfix:
+		** Image order issue in single posts, pages, galleries solved.
+		** Background CSS loading in admin section bug fixed 
+
+= Version 1.0 (June 3, 2011) =
+	* Initial release

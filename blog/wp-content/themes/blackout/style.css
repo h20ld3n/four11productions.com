@@ -1,0 +1,511 @@
+/*
+Theme Name: Blackout
+Version: 1.1
+Description: Blackout is a plain black, 2 column theme with white text. It was created by <a href="http://rajbirdhaliwal.com">Rajbir Dhaliwal</a>.
+Author: Rajbir Dhaliwal
+Author URI: http://rajbirdhaliwal.com/
+Tags: black, two-columns, fixed-width, right-sidebar, threaded-comments
+
+This theme was designed and built by Rajbir Dhaliwal,
+whose blog you will find at http://rajbirdhaliwal.com
+
+*/
+
+body {
+	background-color: #000000;
+	margin:0;
+	padding:0;
+	font-family: 'Franklin Gothic Heavy', Arial, Verdana, Sans-Serif;
+	color: #FFFFFF;
+	text-align:center;
+}
+
+a {
+	color:#FFFFFF;
+	text-decoration:none;
+	outline:none;
+}
+
+#container {
+	margin:0 auto;
+	width:800px;
+}
+
+#header {
+	height:100px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	float:left;
+}
+
+#header h1 {
+	padding:25px 0 0 0;
+	margin:0 0 -15px 0;
+	font-size: 48px;
+	font-weight:normal;
+}
+
+#header h3 {
+	margin:0;
+	padding:0;
+	font-size: 14px;
+	font-weight:normal;
+}
+
+#navigation {
+	margin:0;
+	width:800px;
+	text-align:left;
+	
+}
+
+#navigation ul {
+	padding:17px 0 0 0;
+	margin:0;
+}
+
+#navigation ul li {
+	display:inline;
+	padding: 0 10px 0 0;
+	margin:0;
+}
+
+#navigation ul li a {
+	font-size:24px;
+	text-decoration:none;
+}
+
+#navigation ul li a:hover {
+	text-decoration:underline;
+}
+
+#rss {
+	padding:50px 100px 0 0;
+	width:50px;
+	height:50px;
+	margin:auto;
+	float:right;
+}
+
+#rss img {
+	border:none;
+}
+
+#noborder {
+	border-style:hidden;
+}
+
+#main-content {
+	margin-top:20px;
+	width:500px;
+	float:left;
+	text-align:left;
+}
+
+#main-content p {
+	font-family:Arial;
+	font-size:14px;
+	padding:0;
+}
+
+#main-content img {
+	padding: 4px;
+}
+
+.title-background {
+	padding:0;
+}
+
+.title-background h1 {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	font-size:24px;
+}
+
+.title-background a {
+	font-weight:normal;
+	font-size:30px;
+	text-decoration:none;
+}
+
+.info-background {
+	margin:0;
+	padding: 0;
+	font-size:10px;
+	font-family:Arial;
+}
+
+#sidebar {
+	margin-top:20px;
+	padding-top:5px;
+	width:250px;
+	float:right;
+	text-align:left;
+}
+
+#sidebar h2 {
+	font-weight:normal;
+	font-size:18px;
+	margin:0;
+	padding:0;
+}
+
+#sidebar ul {
+	padding: 0;
+	margin:0;
+}
+
+#sidebar ul li {
+	list-style:none;
+	padding: 0 0 0 50px;
+		
+}
+
+#sidebar ul li a {
+	font-family:Arial;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#footer {
+	width:100%;
+	float:left;
+}
+
+#designed-by {
+	padding-top:100px;
+	float:left;
+	font-family:Arial;
+	font-size:10px;
+}
+
+#designed-by a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#designed-by a:hover {
+	text-decoration:underline;
+	color:#000000;
+}
+
+#copyright {
+	float:right;
+	padding-top:100px;
+	font-family:Arial;
+	font-size:10px;
+}
+
+#copyright a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#copyright a:hover {
+	text-decoration:underline;
+	color:#000000;
+}
+
+.postmetadata {
+	font-family:Arial;
+	font-size:12px;
+	margin: 0;
+	padding:0 5px;
+	border: 1px solid #CCCCCC;
+}
+
+.postmetadata a {
+	color: #444444;
+	text-decoration:none;
+}
+
+.hidden {
+	display:none;
+}
+
+#searchform {
+	float:right;
+	margin-top:20px;
+	background-color: #000000;
+}
+
+#s {
+	border:1px solid #FFFFFF;
+	color:#FFFFFF;
+	font-size:10px;
+	margin:2px 10px 2px 10px;
+	width: 236px;
+	height:15px;
+	background-color:#000000;
+}
+
+#searchsubmit {
+	width:67px;
+	height:21px;
+	background-color:#000000;
+	border:0;
+	font-size:10px;
+	color:#FFFFFF;
+}
+
+.alignleft {
+	float:left;
+}
+
+.alignleft a {
+	float:left;
+	border:none;
+	text-decoration:none;
+	color:#444444;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.alignleft a:hover {
+	text-decoration:underline;
+}
+
+.alignright {
+	float:right;
+}
+
+.alignright a {
+	float:right;
+	border:none;
+	text-decoration:none;
+	color:#444444;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.alignright a:hover {
+	text-decoration:underline;
+}
+
+ol.commentlist { 
+	list-style:none; 
+	margin:0 5px; 
+	padding:0; 
+	text-indent:0; 
+}  
+
+ol.commentlist li { 
+	border:1px solid #FFFFFF; 
+	height:1%; 
+	margin:0 0 10px; 
+	padding:5px 7px 5px 57px; 
+	position:relative; 
+}  
+
+ol.commentlist li div.comment-author { 
+	padding:0 170px 0 0; 
+}  
+
+ol.commentlist li div.vcard { 
+	font:bold 14px/1.4 helvetica,arial,sans-serif; 
+}  
+
+ol.commentlist li div.vcard cite.fn { 
+	-style:normal; 
+}  
+
+ol.commentlist li div.vcard cite.fn a.url { 
+	color:#444444; text-decoration:none; 
+}  
+
+ol.commentlist li div.vcard cite.fn a.url:hover { 
+	color:#FFFFFF; 
+}  
+
+ol.commentlist li div.vcard img.avatar { 
+	border:5px solid #d5d5d5; 
+	left:7px; 
+	position:absolute; 
+	top:7px; 
+}  
+
+ol.commentlist li div.comment-meta { 
+	font:bold 10px/1.4 helvetica,arial,sans-serif; 
+	position:absolute; 
+	right:10px; 
+	text-align:right; 
+	top:5px; 
+}  
+
+ol.commentlist li div.comment-meta a { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+}  
+
+ol.commentlist li div.comment-meta a:hover { 
+	color:#444444; 
+}  
+
+ol.commentlist li p { 
+	font:normal 12px/1.4 helvetica,arial,sans-serif; margin:0 0 1em; 
+}  
+
+ol.commentlist li ul { 
+	font:normal 12px/1.4 helvetica,arial,sans-serif; 
+	list-style:square; 
+	margin:0 0 1em; 
+	padding:0; 
+	text-indent:0; 
+}  
+
+ol.commentlist li div.reply { 
+	background:#000000; 
+	border:1px solid #666; 
+	color:#fff; 
+	font:bold 9px/1 helvetica,arial,sans-serif; 
+	padding:5px 10px;  
+	text-align:center; 
+	width:36px; 
+} 
+
+ol.commentlist li div.reply:hover { 
+	background:#444444; 
+	border:1px solid #666; 
+} 
+
+ol.commentlist li div.reply a { 
+	color:#fff; 
+	text-decoration:none; 
+	text-transform:uppercase; 
+}
+
+ol.commentlist li ul.children { 
+	list-style:none; 
+	margin:1em 0 0; 
+	text-indent:0; 
+}    
+
+ol.commentlist li ul.children li.depth-2 { 
+	margin:0 0 .25em; 
+} 
+
+ol.commentlist li ul.children li.depth-3 { 
+	margin:0 0 .25em; 
+} 
+
+ol.commentlist li ul.children li.depth-4 { 
+	margin:0 0 .25em; 
+}  
+  
+ol.commentlist li.even { 
+	background:#000000; 
+}  
+
+ol.commentlist li.odd { 
+	background:#2222222; 
+}  
+ 
+ol.commentlist li.pingback div.vcard { 
+	padding:0 170px 0 0;
+}  
+
+h3#comments {
+	margin: 10px 5px;
+	font-size: 16px;
+	font-family:Arial;
+}
+
+div#respond {
+	margin:0 5px;
+	font-family:Arial;
+	font-size: 12px;
+}
+
+h3.reply {
+	font-size: 1.2em;
+}
+
+.entry form {
+	text-align:center;
+}
+
+select {
+	width: 130px;
+}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+}
+
+#commentform {
+	margin: 5px 10px 0 0;
+}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+}
+
+#respond:after {
+		content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+}
+
+#commentform #submit {
+	margin: 0 0 5px auto;
+	float: right;
+	border:0;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #000000;
+	padding: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+blockquote {
+	margin: 15px 15px 0 15px;
+	padding: 0 20px;
+	border: 1px solid #FFFFFF;
+	background-color: #333333;
+}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+
+.clear {
+	clear:both;
+}
+	

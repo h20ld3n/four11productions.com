@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Base / Base Child Themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-01 15:01+0700\n"
+"PO-Revision-Date: 2011-05-01 15:01+0700\n"
+"Last-Translator: Philip Arthur Moore <work@philiparthurmoore.com>\n"
+"Language-Team: Graph Paper Press\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;esc_attr__;esc_html__;_e;esc_attr_e;esc_html_e;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop;_n:1,2\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../focal-point\n"
+"X-Poedit-SearchPath-2: ../sidewinder\n"
+"X-Poedit-SearchPath-3: ../uno\n"
+
+#: 404.php:4
+msgid "Whoops! Whatever you are looking for cannot be found."
+msgstr ""
+
+#: archive.php:15
+msgid "Nothing found"
+msgstr ""
+
+#: author.php:15
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:17
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:23
+#: comments.php:42
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:24
+#: comments.php:43
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:38
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:62
+msgid "Bottles"
+msgstr ""
+
+#: functions.php:68
+msgid "Brush"
+msgstr ""
+
+#: functions.php:74
+msgid "Clouds"
+msgstr ""
+
+#: functions.php:80
+msgid "Arrow"
+msgstr ""
+
+#: functions.php:86
+msgid "Surf"
+msgstr ""
+
+#: functions.php:92
+msgid "Wood"
+msgstr ""
+
+#: functions.php:254
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:257
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:264
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:264
+#: functions.php:281
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:281
+msgid "Pingback:"
+msgstr ""
+
+#: search.php:7
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: search.php:16
+msgid "No posts found."
+msgstr ""
+
+#: search.php:17
+msgid "Please try again."
+msgstr ""
+
+#: searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:17
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:22
+msgid "Meta"
+msgstr ""
+
+#: library/extensions/content-extensions.php:83
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr ""
+
+#: library/extensions/content-extensions.php:84
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: library/extensions/content-extensions.php:130
+#: library/extensions/content-extensions.php:454
+#: library/extensions/content-extensions.php:549
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:136
+#: library/extensions/content-extensions.php:313
+#: library/extensions/content-extensions.php:419
+#: library/extensions/content-extensions.php:460
+#: library/extensions/content-extensions.php:608
+msgid "Pages:"
+msgstr ""
+
+#: library/extensions/content-extensions.php:155
+#: library/extensions/content-extensions.php:191
+#, php-format
+msgid "%2$s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:164
+#: library/extensions/content-extensions.php:195
+#: library/extensions/content-extensions.php:660
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:212
+#, php-format
+msgid "Posted in %s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:218
+#, php-format
+msgid "Tagged %s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:222
+msgid "Leave a comment"
+msgstr ""
+
+#: library/extensions/content-extensions.php:222
+msgid "1 Comment"
+msgstr ""
+
+#: library/extensions/content-extensions.php:222
+msgid "% Comments"
+msgstr ""
+
+#: library/extensions/content-extensions.php:224
+#: library/extensions/content-extensions.php:614
+#: library/extensions/content-extensions.php:687
+msgid "Edit"
+msgstr ""
+
+#: library/extensions/content-extensions.php:282
+msgid "Read More <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: library/extensions/content-extensions.php:336
+msgid "Posted in "
+msgstr ""
+
+#: library/extensions/content-extensions.php:336
+msgid " and tagged with "
+msgstr ""
+
+#: library/extensions/content-extensions.php:337
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s feed\">%2$s</a> feed. "
+msgstr ""
+
+#: library/extensions/content-extensions.php:337
+msgid "RSS 2.0"
+msgstr ""
+
+#: library/extensions/content-extensions.php:338
+#: library/extensions/content-extensions.php:422
+msgid "Edit this entry"
+msgstr ""
+
+#: library/extensions/content-extensions.php:390
+#: library/extensions/header-extensions.php:60
+msgid "Not Found"
+msgstr ""
+
+#: library/extensions/content-extensions.php:391
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: library/extensions/content-extensions.php:488
+#, php-format
+msgid "Posts Tagged %s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:490
+#: library/extensions/content-extensions.php:492
+#: library/extensions/content-extensions.php:494
+#, php-format
+msgid "%s archives"
+msgstr ""
+
+#: library/extensions/content-extensions.php:490
+msgid "F jS, Y"
+msgstr ""
+
+#: library/extensions/content-extensions.php:492
+msgid "F Y"
+msgstr ""
+
+#: library/extensions/content-extensions.php:494
+msgid "Y"
+msgstr ""
+
+#: library/extensions/content-extensions.php:496
+msgid "Author Archive"
+msgstr ""
+
+#: library/extensions/content-extensions.php:498
+msgid "Blog Archive"
+msgstr ""
+
+#: library/extensions/content-extensions.php:513
+#: library/extensions/content-extensions.php:532
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:607
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/extensions/content-extensions.php:634
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: library/extensions/content-extensions.php:636
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: library/extensions/content-extensions.php:638
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: library/extensions/content-extensions.php:656
+#, php-format
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:667
+#, php-format
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: library/extensions/content-extensions.php:677
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: library/extensions/content-extensions.php:680
+msgid "Link to full-size image"
+msgstr ""
+
+#: library/extensions/content-extensions.php:734
+msgid "<div class=\"box\"><p>Please install the free <a href=\"http://www.adobe.com/products/flashplayer/\">Adobe Flash Player</a> to view this content.</p></div>"
+msgstr ""
+
+#: library/extensions/footer-extensions.php:40
+msgid "Footer Widget 1"
+msgstr ""
+
+#: library/extensions/footer-extensions.php:41
+msgid "To add content to this area, visit the widget page and add a widget to the Footer Widget 1 widget."
+msgstr ""
+
+#: library/extensions/footer-extensions.php:53
+msgid "Footer Widget 2"
+msgstr ""
+
+#: library/extensions/footer-extensions.php:54
+msgid "To add content to this area, visit the widget page and add a widget to the Footer Widget 2 widget."
+msgstr ""
+
+#: library/extensions/footer-extensions.php:66
+msgid "Footer Widget 3"
+msgstr ""
+
+#: library/extensions/footer-extensions.php:67
+msgid "To add content to this area, visit the widget page and add a widget to the Footer Widget 3 widget."
+msgstr ""
+
+#: library/extensions/footer-extensions.php:79
+msgid "Footer Widget "
+msgstr ""
+
+#: library/extensions/footer-extensions.php:80
+msgid "To add content to this area, visit the widget page and add a widget to the Footer Widget 4 widget."
+msgstr ""
+
+#: library/extensions/footer-extensions.php:96
+#, php-format
+msgid "All content &copy; %1$s by %2$s."
+msgstr ""
+
+#: library/extensions/footer-extensions.php:101
+msgid "<a href=\"http://graphpaperpress.com/themes/"
+msgstr ""
+
+#: library/extensions/header-extensions.php:39
+msgid "Search Results for:"
+msgstr ""
+
+#: library/extensions/header-extensions.php:42
+msgid "Category Archives:"
+msgstr ""
+
+#: library/extensions/header-extensions.php:45
+msgid "Tag Archives:"
+msgstr ""
+
+#: library/extensions/header-extensions.php:48
+#: library/extensions/header-extensions.php:51
+#: library/extensions/header-extensions.php:54
+#: library/extensions/header-extensions.php:57
+msgid "Archives for:"
+msgstr ""
+
+#: library/extensions/header-extensions.php:175
+msgid "Posts RSS feed"
+msgstr ""
+
+#: library/extensions/theme-options-extensions.php:13
+msgid "About  "
+msgstr ""
+
+#: library/extensions/theme-options-extensions.php:14
+msgid "Add a little information about yourself here. It will appear in the footer of your site."
+msgstr ""
+
+#: library/extensions/theme-options-extensions.php:19
+msgid "Read more &raquo;"
+msgstr ""
+
+#: library/functions/admin-dev-blog.php:12
+msgid "Theme Update Alerts"
+msgstr ""
+
+#: library/functions/admin-dev-blog.php:35
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: library/functions/admin-dev-blog.php:41
+msgid "No updates yet"
+msgstr ""
+
+#: library/functions/admin-update-notice.php:212
+#, php-format
+msgid "<strong>%s %s is available</strong> - Checkout the <a href=\"%s\" class=\"thickbox thickbox-preview\" target=\"_blank\">new features</a> before updating."
+msgstr ""
+
+#: library/functions/admin-update-notice.php:214
+#, php-format
+msgid "<p><a class=\"button-primary\" href=\"%s\">More Info &raquo;</a></p>"
+msgstr ""
+
+#: library/options/theme-comments.php:12
+msgid "d. M, Y"
+msgstr ""
+
+#: library/options/theme-comments.php:22
+msgid "Reply to this comment"
+msgstr ""
+
+#: ../focal-point/functions.php:49
+msgid "<a href=\"http://graphpaperpress.com/themes/focal-point/\" title=\"Focal Point photo theme for WordPress\">Focal Point theme</a> by <a href=\"http://graphpaperpress.com\" title=\"Graph Paper Press\">Graph Paper Press</a>."
+msgstr ""
+
+#: ../sidewinder/functions.php:460
+msgid "Gallery"
+msgstr ""
+
+#: ../sidewinder/functions.php:461
+msgid "Galleries"
+msgstr ""
+
+#: ../sidewinder/functions.php:471
+#: ../sidewinder/functions.php:472
+#: ../sidewinder/functions.php:473
+msgid "Add "
+msgstr ""
+
+#: ../sidewinder/functions.php:474
+msgid "View "
+msgstr ""
+
+#: ../sidewinder/functions.php:475
+msgid "Search "
+msgstr ""
+
+#: ../sidewinder/functions.php:476
+msgid "Edit "
+msgstr ""
+
+#: ../sidewinder/functions.php:477
+msgid "All "
+msgstr ""
+
+#: ../sidewinder/functions.php:478
+#: ../sidewinder/functions.php:479
+msgid "No "
+msgstr ""
+
+#: ../sidewinder/functions.php:518
+#: ../sidewinder/functions.php:531
+msgid "Gallery Tags"
+msgstr ""
+
+#: ../sidewinder/functions.php:528
+msgid "Title"
+msgstr ""
+
+#: ../sidewinder/functions.php:529
+msgid "Author"
+msgstr ""
+
+#: ../sidewinder/functions.php:530
+msgid "Collections"
+msgstr ""
+
+#: ../sidewinder/functions.php:532
+msgid "Date"
+msgstr ""
+
+#: ../uno/functions.php:213
+#, php-format
+msgid "This entry was posted on %1$s at %2$s."
+msgstr ""
+
+#: ../uno/functions.php:213
+msgid "l, F jS, Y"
+msgstr ""
+
+#: ../uno/functions.php:214
+msgid "It is filed under"
+msgstr ""
+
+#: ../uno/functions.php:215
+#, php-format
+msgid "You can follow any responses to this entry through the <a href=\"%1$s\" title=\"%2$s feed\">%2$s</a> feed."
+msgstr ""
+

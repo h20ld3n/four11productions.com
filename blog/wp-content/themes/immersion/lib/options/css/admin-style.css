@@ -1,0 +1,340 @@
+html body {height: 100%;}
+
+.wrap { margin-left:0!important}
+
+
+#gpp_theme_options h2 span{
+    color: #888;
+    font-size: 10px;
+    font-style: normal;
+    font-family: verdana,arial;
+
+    
+}
+#gpp_theme_options h2 span a{ color: #aaa; text-decoration: none;}
+#gpp_theme_options h2 span a:hover{ color: #888; text-decoration: underline;}
+    
+    
+#gpp_theme_options .title {
+    margin: 10px 0 0 0 !important;
+    padding: 10px 15px;
+    /* width: 720px; */
+		min-width:600px;
+    background: #f1f1f1; 
+    border:#e3e3e3 solid 1px;
+    -moz-border-radius: 8px 8px 0 0;
+		-webkit-border-radius: 8px 8px 0 0;
+		border-radius: 8px 8px 0 0;
+}
+
+#gpp_theme_options .title h3 {font-size: 24px;font-family : arial, serif;letter-spacing: -1px; font-weight: normal !important; margin:0!important; cursor: pointer; width:550px;  height:30px; line-height: 1.2;      }
+
+#gpp_theme_options p.help {font-size: 1.2em; font-style: normal; }
+
+#gpp_theme_options .icon {padding-left: 30px;}
+#gpp_theme_options .configure {background: url(../images/config.png) no-repeat scroll 0 0 transparent;}
+#gpp_theme_options .browse {background: url(../images/search.png) no-repeat scroll 0 0 transparent;}
+
+#gpp_theme_options .title p.submit { float:right; padding:0px;}
+
+#gpp_theme_options .gpp-expand { 
+	background:#ddd;
+	color:#777;
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:15px;
+	margin-right:10px;
+	padding:6px 0 0 ;
+	height:25px; width: 30px; text-align: center;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#gpp_theme_options .container {
+    background: #EAF3FA;
+    padding: 10px;
+}
+
+#gpp_theme_options .titledesc, #transport_settings .titledesc {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    line-height: 2em;
+    float: left;
+    width: 18%;
+    margin-right: 10px;
+	cursor: auto;
+}
+
+#gpp_theme_options .formcontainer, #transport_settings  .formcontainer{
+    float: left;
+    width: 80%;
+}
+
+#gpp_theme_options .forminp, #transport_settings  .forminp {
+    float:left;
+
+	margin-right:15px;
+	max-width:70%;
+}
+
+#gpp_theme_options .forminp input,#gpp_theme_options .forminp select,#gpp_theme_options .forminp textarea, #transport_settings  textarea {
+    margin-bottom: 9px !important;
+    background-color: #f1f1f1;
+    border: 1px solid;
+    border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana,sans-serif;
+    font-size: 12px;
+    width: 300px;
+}
+#gpp_theme_options .forminp select {
+padding: 0 0 0 4px; width: 275px;
+} 
+
+#gpp_theme_options .forminp input.upload-input-text { width:266px; -moz-border-radius:4px 4px 4px 4px; }
+
+
+#gpp_theme_options .forminp input:focus,.forminp select:focus,.forminp textarea:focus { background:#fff}
+
+#gpp_theme_options .forminp span {
+    font-size: 9px !important;
+    font-weight: normal !important;
+    line-height: 14px !important;
+}
+
+#gpp_theme_options .input-text-small { width:80px!important;}
+#gpp_theme_options .meta-two { margin:0 10px}
+
+#gpp_theme_options .forminp .checkbox {
+    width: 20px;
+    border:0;
+    background: transparent none;
+	margin-top:0;
+}
+
+#gpp_theme_options .option-radio input {
+    width: 30px;
+    text-align: left;  
+}
+
+#gpp_theme_options .info a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dotted #333
+}
+
+#gpp_theme_options .info a:hover {
+    color: #666;
+    border-bottom: 1px dotted #666;
+}
+#gpp_theme_options .welcome{float: left; padding-top:4px;}
+
+#gpp_theme_options .warning {
+    background: #ffeeee url(../images/warning.png) no-repeat 10px center;;
+    border: 1px dotted #cc0000;
+    padding: 20px 20px 20px 80px;
+    color: #333;
+    font-weight: bold;
+    width:220px;
+	position:absolute;	
+	left:40%;
+	overflow:hidden;
+	z-index:9999;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;	
+}
+
+#gpp_theme_options .errors {
+    background: #fded82 url(../images/warning.png) no-repeat 10px center;
+    border: 1px dotted #fcc55c;
+    padding: 20px 20px 20px 80px;
+    color: #333;
+    font-weight: normal;
+    width:650px;
+}
+
+#gpp_theme_options .errors ul{ list-style: outside; padding-left: 30px; }
+#gpp_theme_options .errors ul li{  padding:  5px 0;}
+
+#gpp_theme_options .happy {
+    background: #ccffcc url(../images/accepted.png) no-repeat 10px center;
+    border: 1px dotted #00CC00;
+    padding: 20px 20px 20px 80px;
+    color: #060;
+    font-weight: bold;
+    width:220px;
+		position:absolute;	
+		left:40%;
+		overflow:hidden;
+		z-index:9999;
+		-moz-border-radius:8px; 
+		-webkit-border-radius:8px;
+}
+
+#gpp_theme_options .desc, #transport_settings .desc {
+    font-size: 10px;
+    color: #999; 
+    vertical-align: middle !important;
+    overflow: hidden;
+    max-width: 90%;
+}
+
+/* Make me special */
+#gpp_theme_options .option_content {
+    max-width: 100%;
+   overflow:hidden;
+   
+}
+#gpp_theme_options .option_content h3 {
+	padding-bottom:8px;
+	padding-left: 10px;
+	border-bottom:1px solid #e3e3e3;
+	 max-width: 100%;
+}
+#gpp_theme_options .image_uploader .option-inner{}
+
+
+#gpp_theme_options .option, #transport_settings  .option {    
+    max-width: 100%;
+
+	overflow:hidden;	
+}
+
+#gpp_theme_options .option-inner, #transport_settings  .option-inner {
+    padding:10px 15px;
+    margin: 12px 15px;
+    overflow: hidden;
+}
+#gpp_theme_options .option-hidden > .option-inner {margin:0;padding:0;}
+#gpp_theme_options .uploader_page { background-color:#f1f1f; border:0px solid #e6e6e6; border-width:0px 1px 1px 1px; padding:10px;}
+#gpp_theme_options .uploader_page_image {float:left}
+#gpp_theme_options .uploader_page_input { margin-left:260px; }
+#gpp_theme_options .uploader_page_input span { font-size:12px; display:block; margin-bottom:5px; font-weight:700}
+#gpp_theme_options .uploader_page_input input {border:1px solid #ddd; padding:4px; font-size:11px; background-color:#f1f1f1}
+
+#gpp_theme_options .upload_input {width:134px !important; border:#ccc;outline: none;}
+#gpp_theme_options .upload_save {width:70px !important; padding:2px 1px !important;}
+#gpp_theme_options .upload_browse{ width:58px !important; padding:2px 1px !important;}
+
+
+#gpp_theme_options #gpp-icon {
+    background: transparent url(../images/icon-48.png) no-repeat scroll 0 6px;
+    width: 48px
+}
+
+.submit-footer { float: left; margin-right: 20px;}
+.reset-button { color: red !important; border: 1px solid #ededed !important; position: absolute; right: 20px; }
+
+#scrollme {text-align: right; position:absolute;top:52px; left:758px}
+*+html #scrollme {left:708px}
+#scrollme p{ background: #ddd; padding: 10px 20px; position: block; background: #D6FFD0; border: #ACFFA0 1px solid; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px}
+
+div.previewimg {
+	position:relative;
+}
+
+div.previewimg {
+	position:relative;
+	width:275px;
+}
+div.previewimg img.uploadedimg {
+	width:275px;
+}
+
+
+div.previewimg #delete {
+	position:absolute;
+	left:0;
+	background:#eeeeee;
+	opacity:0.75;	
+	padding:5px;
+	margin:5px;	
+	-moz-border-radius:4px;	
+	-webkit-border-radius:4px;
+}
+div.previewimg #editimg {
+	position:absolute;
+	left:40px;
+	background:#eeeeee;
+	opacity:0.75;	
+	padding:5px;
+	margin:5px;	
+	-moz-border-radius:4px;	
+	-webkit-border-radius:4px;
+}
+div.previewimg #delete.hover, div.previewimg #editimg.hover {
+	cursor:pointer;
+}
+
+#menusub {	
+	position:absolute;	
+	top: 0;
+}
+#menusub.fixed {
+  	position: fixed;
+  	top: 0px;	
+	-moz-border-radius:8px 8px 0 0;
+	-webkit-border-radius:8px 8px 0 0;
+}
+
+#menusub  ul.menulist  li {	
+	margin:0;		
+}
+#menusub  ul.menulist  li a.currentnav {
+	background:#fff;
+	border-left:1px solid transparent;
+	color:#000000;
+}
+
+#menusub  ul.menulist  li a {
+	text-decoration:none;
+	font-weight:bold;	
+	padding:6px 10px;
+	border:1px solid #E3E3E3;
+	display:block;
+	width:178px;
+	border-top:none;
+	background: #eee;
+}
+
+#theme_options {
+	min-width:600px;
+	max-width: 100%;
+}
+
+#optionblock {
+	border:1px solid #ccc;
+	border-top: none;
+	display:none;
+	padding: 25px 10px;
+}
+
+.gppsave {width: 110px;}
+
+.hidden  {
+	display:none;
+}
+.clear {
+	clear:both;
+}
+
+#addelement, #deleteelement {	
+	width:55px !important;	
+}
+
+label {vertical-align: top;}
+
+/* Sortable application */
+.sortapps {
+	padding:7px 20px;
+	border:1px solid #dddddd;
+	background:#FFFfff;
+}
+.ui-state-highlight {
+ height: 2.5em;
+ line-height: 1.2em;
+ background:#FFF8AF;
+ border:1px solid #FFE900;
+}

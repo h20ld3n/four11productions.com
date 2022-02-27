@@ -1,0 +1,21 @@
+== Changelog ==
+These are the changes seen by F8 since it was first available for public download.
+
+= Version 3.0.2 (November 25, 2011) =
+	* updated depreciated and outdated functions
+	* replaced includes with get_template_part 
+
+= Version 3.0.1 (August 25, 2011) =
+	* Category App conflict with Slideshow (instantiated a new WP_Query)
+
+= Version 3.0.0 (August 02, 2011) =
+	* Removed timthumb.php and image.php
+	* Added readme.txt and changelog.txt
+
+= Version 2.9 (February 22, 2011)
+	* Added search template
+	* Slider bug fix
+	* Fixed Theme Options hide/show apps bug
+
+= Version 1.0 (October 7, 2008) =
+	* Initial release

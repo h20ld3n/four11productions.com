@@ -1,0 +1,4 @@
+.portfolio-image-wrapper {margin: 0 0 20px 0;}
+* html .portfolio-image-wrapper {float:left;}
+* html .portfolio-image-wrapper .category-overlay {margin-right:18px;}
+#nav-drop a {padding: 8px 60px 16px 8px; line-height: 13px; }

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>documentation.html</title>
+<style type="text/css">
+body {
+	padding:20px;
+	width:600px;
+	margin:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+div.hooks span {
+	font-style:italic;
+	color:#666;
+}
+div.hooks p {
+	margin-top:5px;
+	color:#999;
+}
+textarea.code {
+	background:none repeat scroll 0 0 #EEEEEE;
+	border:1px dotted #666666;
+	font-family:"Courier New",monospace;
+	margin-bottom:1em;
+	overflow:auto;
+	padding:5px;
+	position:relative;
+	white-space:nowrap;
+	width:600px;
+	max-height:300px;
+	min-height:100px;
+}
+</style>
+</head>
+
+<body >
+<h2>Base Theme Action Hooks</h2>
+<p>The following action hooks can be used to modify Base Theme through your Child Theme functions.php file or even a custom plugin.</p>
+<div class="hooks">
+    <span>gpp_base_above_header_hook()</span>
+    <p>Located in header.php just before the header div.</p>
+</div>
+<div class="hooks">
+	<span>gpp_base_header_hook()</span>
+    <p>Located in header.php priority 1 for logo and priority 3 for description</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_below_header_hook()</span>
+    <p>Located in header.php just after the header div.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_apps_hook()</span>
+    <p>Located in index.php just above the content div for loading applications like slideshow.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_loop_hook()</span>
+    <p>Located in index.php and can be used to change the whole content div. It contains gpp_base_index_loop_hook() and gpp_base_navigation_hook()</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_index_loop_hook()</span>
+    <p>Located inside gpp_base_loop_hook() and can be used to change just the post div.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_above_content_hook()</span>
+    <p>Located in index.php, single.php, archive.php just above the content if the post.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_below_content_hook()</span>
+    <p>Located in index.php, single.php, archive.php just below the content of the post.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_archive_loop_hook()</span>
+    <p>Located in archive.php inside archivecontent div.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_author_loop_hook()</span>
+    <p>Located in author.php, author loop is defined in it.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_attachment_loop_hook()</span>
+    <p>Located in attachment.php, attachment loop is defined in it.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_single_post_hook()</span>
+    <p>Located in single.php and can be used to change the contains of gpp_base_index_loop_hook() and gpp_base_navigation_hook() together.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_after_single_post_hook()</span>
+    <p>Located in single.php inside content div just after gpp_base_single_post_hook().</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_above_title_hook()</span>
+    <p>Located in index.php, single.php, page.php just above the title.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_below_title_hook()</span>
+    <p>Located in index.php, single.php, page.php just below the title. If you don't like posted date showing below you can change it to anything you like or nothing as follows. </p>
+     <textarea name="textarea" readonly="readonly" class="code">
+function change_func() {
+    echo '<div class="entry-meta">';
+    echo 'Anything you want to display';
+    echo '</div>';
+}
+remove_all_actions('gpp_base_below_title_hook');
+add_action('gpp_base_below_title_hook','change_func'); 
+      </textarea>
+   
+</div>
+
+<div class="hooks">
+    <span>gpp_base_posted_on_hook()</span>
+    <p>Use this action hook if you want to change the date format.</p>
+</div>
+
+<div class="hooks">
+    <span>gpp_base_post_author_hook()</span>
+    <p>Use this action hook if you want to change the author format.</p>
+</div>
+
+<div class="hooks">
+    <span>gpp_base_navigation_hook()</span>
+    <p>Located in all pages where paging is needed like previous post / next post.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_not_found_hook()</span>
+    <p>Located in single.php and can be used to change the error message if the page is not found.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_page_hook()</span>
+    <p>Located in page.php and can be used to change the way page displays.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_meta_hook()</span>
+    <p>Located in index.php and page-blog.php and can be used to change the way meta displays.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_single_meta_hook()</span>
+    <p>Located in single.php and can be used to change the way meta displays.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_above_sidebar_hook()</span>
+    <p>Located in sidebar.php just above the sidebar div</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_below_sidebar_hook()</span>
+    <p>Located in sidebar.php just below the sidebar div</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_above_footer_hook()</span>
+    <p>Located in footer.php just above the footer div</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_footer_hook()</span>
+    <p>Located in footer.php and can be used to chage the footer content.</p>
+</div>
+<div class="hooks">
+    <span>gpp_base_below_footer_hook()</span>
+    <p>Located in footer.php just below the footer div</p>
+</div>
+
+<h2>Base Theme Filter Hooks</h2>
+<p>The following theme filters can be used to modify Base Theme through your Child Theme functions.php file or even a custom plugin.</p>
+<div class="hooks">
+    <span>gpp_base_create_doctype()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_head_profile()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_doctitle()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_create_contenttype()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_show_description()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_show_robots()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_create_stylesheet()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_show_rss()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_show_pingback()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_previous_post_link_args()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_next_post_link_args()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_content()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>the_content()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_post()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>more_text()</span>
+  <p></p>
+</div>
+<div class="hooks">
+    <span>gpp_base_attachment_size()</span>
+  <p></p>
+</div>
+
+
+
+</body>
+</html>

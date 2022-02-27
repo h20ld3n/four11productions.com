@@ -1,0 +1,307 @@
+/*
+Theme Name: Techno Blue Theme
+Theme URI: http://luckythemes.com/tech-blue-theme/
+Description: Tech blue color wordpress theme by <a href="http://luckythemes.com/">luckythemes.com</a>.
+Version: 1.4
+Author: http://luckythemes.com/
+Author URI: http://luckythemes.com/
+Tags: widget ready, valid xhtml, valid css, two columns, fixed width, 2 columns, left sidebar, blue
+*/
+body{
+	background: white url(images/bg.gif);
+	color: black;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+img{ border: 0; }
+
+ul{ margin: 10px 5px 10px 40px; padding: 0; }
+
+ul li{
+	list-style: url(images/bullet.gif);
+	margin: 0;
+	padding: 0;
+}
+
+.clear{ clear: both; }
+
+.left{ float: left; width: 231px; overflow: hidden;}
+
+.left .title{ background: #170551 url(images/cat_bg.gif) no-repeat 10px 12px; padding: 6px 0 7px 27px; }
+
+.left a:link, .left a:visited, .left a:active, .left a:hover{ color: #62DAF8; text-decoration: none; }
+
+.left a:hover{ text-decoration: underline; }
+
+.left h1{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.left p{ margin: 0; padding: 10px; }
+
+.permalink{
+	color: #084531;
+	font-size: 11px;
+	margin: 10px;
+	padding: 5px 10px;
+	text-align: center;
+}
+.tags1{
+    margin: 0 10px;
+    border: 1px solid #43B9D3;
+    background: white;
+}
+.tags2{
+    margin: 1px;
+    border: 1px solid #170551;
+    background: white;
+    padding: 2px 5px;
+    font-size: 10px;
+}
+
+.permalink a:link, .permalink a:visited, .permalink a:active, .permalink a:hover, .right a:link, .right a:visited, .right a:active, .right a:hover { color: #084531; text-decoration: underline; }
+
+.right{ float: right; width: 612px; overflow: hidden;}
+
+.right .title{ background: #170551; padding: 6px 0 7px 27px;}
+
+.right h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.right h1 a:link, .right h1 a:visited, .right h1 a:active, .right h1 a:hover { color: white; text-decoration: none; }
+
+.right h1 a:hover { text-decoration: underline; }
+
+.right h4{
+	color: white;
+	font-family: Arial, Helvetica, Georgia, Tahoma, Verdana, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0 10px;
+	padding: 0;
+}
+.right .title h1{ float: left; width: 520px;}
+.right .title h4{ float: right; margin-top: 5px;}
+
+.right p{ margin: 0; padding: 3px 10px; }
+
+.search{ padding: 0px 20px 0 0; float: right;}
+
+#content{
+	background: white url(images/cont_bg.jpg) repeat-y;
+	margin: 1px auto;
+	width: 844px;
+	text-align: left;
+}
+
+#footer{
+	background: url(images/footer_bg.jpg) no-repeat;
+	color: #E6E6E6;
+	margin: 0 auto;
+	text-align: center;
+	width: 844px;
+	font-size: 11px;
+}
+
+#footer a:link, #footer a:visited, #footer a:active, #footer a:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#footer a:hover, .permalink a:hover, .right a:hover { text-decoration: none; }
+
+#footer p{ margin: 0; padding: 15px 0 12px 0; margin-left: 300px;}
+
+#header{
+	background: #1A1883 url(images/header_bg.jpg) repeat-y;
+	border-top: none;
+	height: 210px;
+	margin: 0 auto;
+	width: 844px;
+	text-align: left;
+}
+#header .himg{
+	background: url(images/header_img.jpg) no-repeat;
+}
+#header a:link, #header a:visited, #header a:active, #header a:hover{
+	
+	color: white;
+	text-decoration: none;
+}
+#header a:hover{ color: #47B7F2; }
+
+#header h1{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0;
+	padding-left: 15px;
+	padding-top: 120px;
+}
+
+#header h4{
+	color: #47B7F2;
+	font-family: Arial, Helvetica, Georgia, Tahoma, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding-left: 15px;
+}
+
+h2 {
+	font-family: Georgia, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #494921;
+	margin-left: 10px;
+}
+
+h3 {
+	font-family: Georgia, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #494921;
+	margin-left: 10px;
+}
+
+p, li, .feedback {
+	font: 100% Tahoma, 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#commentform #author, #commentform #email, #commentform #url, #commentform textarea {
+	background: #fff;
+	border: 1px solid #333;
+	padding: .2em;
+}
+
+#commentform textarea {
+	width: 99%;
+}
+
+#commentlist li ul {
+	border-left: 1px solid #ddd;
+	font-size: 110%;
+	list-style-type: none;
+}
+
+#commentlist li .avatar {
+	float: right;
+	margin-right: 25px;
+	border: 1px dotted #ccc;
+	padding: 2px;
+}
+
+
+#wp-calendar {
+	border: 1px solid #ddd;
+	empty-cells: show;
+	font-size: 14px;
+	margin: 0 auto 10px auto;
+	width: 90%;
+    color: #34B3D4;
+}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+}
+
+#wp-calendar a:hover {
+	background: #e0e6e0;
+	color: #34B3D4;
+}
+
+#wp-calendar caption {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#wp-calendar td {
+	color: #ccc;
+	font: normal 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	letter-spacing: normal;
+	padding: 2px 0;
+	text-align: center;
+}
+
+#wp-calendar td.pad:hover {
+	background: #fff;
+}
+
+#wp-calendar td:hover, #wp-calendar #today {
+	background: #eee;
+	color: #170551;
+}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+}
+p img {
+padding: 0;
+max-width: 100%;
+}
+
+img.centered {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.alignright {
+padding: 4px;
+margin: 0 0 2px 7px;
+display: inline;
+}
+
+img.alignleft {
+padding: 4px;
+margin: 0 7px 2px 0;
+display: inline;
+}
+
+.alignright {
+float: right;
+}
+
+.alignleft {
+float: left
+}
+.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+            
+.left ul li ul li{border: 0;}
+.left ul li ul li ul li{border: 0;}
+
+.right ul li{ margin: 0 10px;}
+.right ol li{ margin: 0 10px;}

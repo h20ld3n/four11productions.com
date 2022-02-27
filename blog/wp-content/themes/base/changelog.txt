@@ -1,0 +1,126 @@
+== Changelog ==
+
+= Version 2.0.5 (Dec 26, 2011) =
+	* Bugfix:
+		** Header image single posts fix
+
+= Version 2.0.4 (Dec 6, 2011) =
+	* Enhancement:
+		** PressTrends integration
+
+= Version 2.0.3 (Dec 1, 2011) =
+	* Bugfix:
+		** Added text formats (bold/italics/etc)
+
+= Version 2.0.2 (Nov 23, 2011) =
+	* Bugfix:
+		** Last Footer Widget floating below another widget bug fixed
+		** Show content on post archives
+		
+= Version 2.0.1 (Nov 17, 2011) =
+	* Bugfix:
+		** Only users with manage_options capabilities can access Theme Options
+		** fopen fix: get_stylesheet_directory not get_stylesheet_uri
+		** sidebar widgets div to aside
+		** hook used in above head changed from gpp_base_below_title_hook() to gpp_base_above_title_hook()
+		** archive pages formatting to fit the design.
+
+= Version 2.0 (Nov 16, 2011) =
+	* Enhancements:
+		** adapted Responsive Design
+		** added Post Formats including Image, Gallery, Audio and Video
+		** revisited the theme to work inline with WordPress standards, features such as Separate admin menu block, shortcodes now removed for theme to be more lightweight, efficient and secure.
+		** Theme Options now moved to Appearance menu
+		** File reading functions removed, css options now pull files from array (shouldn't change for end user)
+		** Apps now removed and any apps will now be available as plugins.
+
+= Version 1.2.4 (Sept 12, 2011) =
+	* Bugfix:
+		** Reverting the disabling of content filtering (caused WP formatting issues)
+
+= Version 1.2.3 (Sept 6, 2011) =
+	* Bugfix:
+		** Disable content filtering (caused a plugin conflict)
+
+= Version 1.2.2 (July 4, 2011) =
+	* Enhancements:
+		** Moved automatic updates to plugin gpp-theme-updates.
+		** Moved google analytics code from footer to header.
+
+	* Bugfix:
+		** Secondary menus not being selected in Menu Option bug fixed.
+		** Issue with mobile video option resolved.
+
+= Version 1.2.1 (June 22, 2011) =
+	* Enhancements:
+		** SEO plugin option added.
+	
+= Version 1.2 (June 3, 2011) =
+	* Enhancements:
+		** Added readme.txt file as new instructions menu in admin panel.
+		** Update Base language template with WordPress language functions.		
+		** Widgets section populated with home widget, sidebar widget and footer widgets.
+		** Changed few variable names to remove confusion.
+	
+	* Bugfix:
+		** Specific page title not displaying corrected.
+		** Author title issue solved.
+		** Input tag width issue solved.
+		** Navigation added in author archive.
+		
+= Version 1.1 (March 9, 2011) =
+	* Enhancements:
+		** Overhaul of hook names to make it more intuitive.
+		** Automatic update option added with ajax "checking for updates feature".
+		** Added browser detection css class to body.
+		** added style-extensions.php so users can add custom stylesheets to singular posts, pages, types, by adding a Stylesheet custom field.
+		** filter hooks added to change the descriptions of theme options for sidebar and widgets.
+		** Instructions updated.
+	
+	* Bugfix:
+		** Bug of only displaying title solved to show Title | Description pair.
+		** removed "collection" word from the page.
+		** removing audio files for post types.
+			
+= Version 1.0.6 (February 2, 2011) =
+	* Enhancements:
+		** Blog title on Blog Page template is no longer hard-coded.
+		** Added image type on Theme Options.  Currently not used.  Will use when WP 3.1 is released.
+		** Updated New Themes RSS Feed parsing.
+		** Updated Update Alerts RSS Feed parsing.
+	
+	* Bugfix:
+		** Image calculation fix for dynamic image resizing.
+		** Post metadata displayed twice.
+		** Added new image size add_image_size 940X200 for header images and single featured images.
+		** Include correct reference to [three_fourth_first][/three_fourth_first].
+		** Removed query string conflict with child themes.
+		** Disable CSS file reading.
+		** Added break at end of foreach loop if match found.		
+		
+= Version 1.0.4 (January 23, 2011) =
+	* Enhancements:
+		** Blog page template is now hookable for child themes.
+		** jQuery loading improvements.
+		** Meta robots change
+		** Taxonomy title additions
+		** Updated instructions
+				
+= Version 1.0.3 (January 20, 2011) =
+	* Enhancements:
+		** Select default.css as its default color
+		
+= Version 1.0.2 (January 14, 2011) =	
+	* Enhancements:
+		** Added base hook widgets
+		** Remove redundant CSS
+		
+	* Bugfix:
+		** Fixed Footer widget problem
+
+= Version 1.0.1 (December 28, 2010) =
+	* Enhancements:
+		** Function name changes
+		
+= Version 1.0 (December 09, 2010) =
+	* Initial release

@@ -1,0 +1,20 @@
+/* Dark */
+
+a {
+color: #3C3C3C;
+}
+
+#access {
+background: #2C2C2C;}
+
+#access li {
+background: #2C2C2C url(../../images/border-vert-dark.png) repeat-y top right;
+}
+
+#access li:hover > a {
+background: #343434 url(../../images/border-vert-dark.png) repeat-y top right;
+}
+
+#access li.current-menu-item {
+background: #343434;
+}

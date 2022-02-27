@@ -1,0 +1,11 @@
+*** Skeptical Changelog ***
+
+ * /functions/ - framework update
+ * includes/theme-options.php - added icons to options panel
+ * css/ie7.css - Fixed navigation float bug
+
+2010.10.08 - version 1.0.1
+ * header.php - Alternative feed url was not being printed correctly (line 71)
+	
+2010.09.27 - version 1.0
+ * First release!

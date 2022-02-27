@@ -1,0 +1,634 @@
+/*  
+Theme Name: Royal Vista
+Theme URI: http://topwpthemes.com/royalvista/
+Description: Designed by <a href="http://designed.nu">Design Blog</a> and available FREE at <a href="http://www.zinruss.com/themes/">WordPress Themes Gallery</a>
+Author: Design Blog
+Author URI: http://designed.nu
+© 2008, Design Blog. All rights reserved. 
+*/
+
+
+
+/* Begin Typography & Colors */
+
+body {
+	color: #999999;
+  	margin: 0px;
+  	padding: 0px;
+  	background: #f6f6f7 url(images/background.jpg) repeat-x top;
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+        	}
+#content {
+	
+        font-size: 1.2em;
+
+}
+
+#content h2 {
+	border-bottom: 1px dotted #333333;
+        padding-bottom: 6px;
+}
+
+.spacer {   padding: 0px;
+            text-align: right;
+            clear: both;
+            text-transform: lowercase;
+            padding-top: 11px;
+
+            }
+
+
+.narrowcolumn .entry {
+	line-height: 1.4em;
+
+}
+
+	
+.narrowcolumn .postmetadata {
+	text-align: left;
+ 	}
+
+.alt {		
+	border-bottom: 1px dotted #333333;
+	border-top: 1px dotted #333333;
+		color: #999999;
+
+	}
+	.postmetadata alt {
+	background-color: #303030;
+	}
+.wp-smiley {
+	border: none;
+}
+
+img { 
+      padding: 5px;
+      border: #333333 1px solid;
+      }
+
+a:hover img {
+      padding: 5px;
+      border: #444444 1px solid;
+}
+
+img.alignleft { 
+                float: left;
+                margin: 3px 3px 0px 0;
+                }
+
+img.alignright { 
+                 float: right;
+                 margin: 0 3px 0px 3px;
+                 }
+
+
+
+
+
+small {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+
+	
+	}
+	 small a, small a:link, small a:visited {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	
+	}
+
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	}
+
+h1 {
+	font-size: 3em;
+	text-align: left;
+        padding-left: 428px;
+	}
+
+
+h2 {
+	font-size: 1.5em;
+	}
+
+h2.pagetitle {
+	font-size: 1.5em;
+
+	}
+
+h3 {
+	font-size: 1.3em;
+	}
+
+h1, h1 a, h1 a:hover, h1 a:visited {
+	text-decoration: none;
+	color: #dddddd;
+	}
+
+h2, h2 a, h2 a:visited{
+	color: #dddddd;
+	}
+
+h2 a:hover{
+	color: #eeeeee;
+	}
+
+ h3, h3 a, h3 a:visited {
+	color: #dddddd;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.entry p a:visited {
+	color: #999999;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	}
+	
+.commentlist li {
+	font-weight: bold;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+.commentlist a, .commentlist a:link{
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	color:#d70101;
+}
+.commentlist a:hover {
+	color: #d70101;
+	text-decoration: none;
+}
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+small, .nocomments, .postmetadata, strike {
+	color:  #999999;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	}
+
+{
+	color:#999999;
+}	
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a {
+	color: #d70101;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #d70101;
+	text-decoration: underline;
+	}
+	
+}
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+body {
+	margin: 0;
+	padding: 0; 
+	}
+
+#page {
+	background: #010101 url(images/mainbackground.jpg) repeat-y; 
+        border: none;
+	text-align: left;
+	margin: 0px auto;
+	padding: 0;
+	width: 1000px;
+	}
+	
+#header {
+	padding: 0;
+	margin: 0 auto;
+	height: 300px;
+	width: 1000px;
+	background: url(images/header.jpg);  
+	}
+
+.header-title {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color:#ea0303;
+	font-size:33px;
+        font-weight:bold;
+	padding: 108px 0 0 438px;
+	text-align:left;
+	}
+.header-title a{
+	color:#ea0303;
+	text-decoration:none;
+	border-bottom:none;
+	}
+.header-title a:hover{
+	color:#ea0303;
+	text-decoration:none;
+	border-bottom:none;
+	}
+.header-description {
+        font-size: 11px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+        font-weight: normal;
+	color:#222222;
+	padding: 0px 0 0 439px;
+	text-align:left;
+	}
+
+.narrowcolumn {
+        float: left;
+        padding-left: 50px; 
+        padding-right: 8px; 
+	width: 625px;
+        display: inline;
+	
+}
+
+	
+.post {
+	text-align: justify;	
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;	
+	line-height: 1.4em;
+}
+.entrytext ul {
+  margin           : 2px;
+  padding-left     : 10px;
+  list-style       : none;
+}
+.entrytext ul li, .entrytext ul ol {
+  line-height      : 15px;
+  padding-left     : 0px;
+  padding-top      : 0px;
+
+}
+
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}
+
+
+	
+#footer {
+        background: url(images/footer.jpg) ;
+	padding: 0 0 0 0px;
+	margin: 0 auto;
+	width: 1000px; height: 92px;
+	clear: both;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	color: #999999;
+	}
+
+#footer p {
+	margin: 0;
+	padding: 28px 0;
+	text-align: center;
+	}
+#footer a, #footer a:link{
+	color: #999999;
+    text-decoration  : none;
+}
+
+#footer a:visited{
+	color: #999999;
+    text-decoration  : none;
+}
+
+#footer a:hover{
+	color: #999999;
+    text-decoration  : none;
+}
+/* End Structure */
+
+
+h1 {
+	padding-top: 168px;
+	margin: 0;
+	}
+
+
+h2 {
+	margin: 15px 0 0 0;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+	text-align: center;
+}
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 0px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry li {
+	margin: 7px 0 8px 0px;
+	
+	}
+
+.entry ul li:before {
+	content: "\00BB \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 0px;
+	margin-left: 20px;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+.postmetadata{
+	font-size: 9px;
+	color: #d70101;
+    text-decoration  : none;
+}
+
+.postmetadata a, .postmetadata a:link, .postmetadata a:visited, .postmetadata a:hover {
+	color: #d70101;
+    text-decoration  : underline;
+}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	
+	}
+	
+
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+
+
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+#commentform textarea {
+	background-color: #fefefe;
+	border: 1px solid #000000;
+	width: 99%;
+	padding: 4px;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	color: #333333;
+	}
+input {
+	color: #333333;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	padding: 2px;
+	text-transform: lowercase;
+	background-color: #fefefe;
+	border: 1px solid #000000;
+	margin-right: 1px;
+	}
+#commentform #submit {
+	color: #333333;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	padding: 3px 6px 3px 6px;
+	text-transform: lowercase;
+	background-color: #fefefe;
+	border: 1px solid #000000;
+	
+	}
+
+#commentPreview {
+	width: 374px;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	background-color: #fff;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	padding: 6px;
+	}
+
+
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+/* Begin Sidebar */
+
+#sidebar {      float: left;
+		width:290px;
+                margin-left: -30px;
+                margin-top: -27px;
+             
+                
+	}
+
+.ad 	{ width:270px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+  background-color : #d70101;
+	}	
+	
+
+		
+	#sidebar ul {
+		margin-bottom:0;
+		list-style-type:none;
+                color: #9c8266;
+		}
+	#sidebar ul li, #sidebar ul ul, #sidebar ul ul ul {
+		margin:0px;
+		padding:0px;
+		}
+	#sidebar ul#linkslist {
+		margin:0px;
+	}
+	
+	#sidebar ul#linkslist {
+		margin:0px;
+	}
+	
+	#wrap > #sidebar ul#linkslist{
+	}
+	
+	#sidebar p{
+		margin: 0px;
+	}
+	
+	#sidebar h2{
+  font-size        : 12px;
+  font-weight      : bold;
+  text-transform   : uppercase;
+  text-align       : left;
+  height           : 23px;
+  line-height      : 25px;
+  text-indent      : 8px;
+  letter-spacing   : 1px;
+  color            : #eeeeee;
+  background-image : url(images/nav.jpg);
+  border-bottom: 1px solid #0e0e0e;
+  width: 270px;
+ 
+	}
+	#sidebar p{
+		margin-top:0px;
+		margin-bottom:0px;
+		color: #555;
+		word-spacing: -1px;
+		font-size:10px;
+	}
+	#sidebar ul ul li, #sidebar ul ol li {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-size:10px;
+	  background-color : #d70101;
+	}
+	#sidebar ul ul li a, #sidebar ul ol li a {
+	padding          : 5px 0px 5px 0px;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+  width: 270px;
+  background-color : #d70101;
+  text-indent      : 10px;
+	}
+#sidebar ul ul li a:link, #sidebar ul ul li a:visited, #sidebar ul ol li a:link, #sidebar ul ol li a:visited{
+	display          : block;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+  background-color : #d70101;
+  font-weight      : normal;
+  padding          : 3px 0px 3px 0px;
+  color            : #eeeeee;
+  width: 270px;
+  text-indent      : 10px;
+  border-top: #f33f3f 1px solid;
+  border-bottom: #b60000 1px solid;
+}
+#sidebar ul ul li a:hover, #sidebar ul ol li a:hover {
+	background-color : #c30000;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+  font-weight      : normal;
+  text-decoration  : none;
+  color            : #eeeeee;
+  text-indent      : 10px;
+  border-top: #c30000 1px solid;
+  border-bottom: #b60000 1px solid;
+	}
+
+
+	
+/* End Sidebar */
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<wp_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>General</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>2</id>
+    <item_id>monochromepro_logo</item_id>
+    <item_title>Logo Image</item_title>
+    <item_desc>Upload your custom logo image.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>homepage</item_id>
+    <item_title>Homepage</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>monochromepro_homepage</item_id>
+    <item_title>Homepage Slideshow</item_title>
+    <item_desc>Choose between either uploading a static group of images on the homepage or using posts to create the slideshow.</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Upload images, Post thumbnails</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>monochromepro_home_images</item_id>
+    <item_title>Homepage Slideshow Images</item_title>
+    <item_desc>Upload images for Homepage Slideshow</item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>monochromepro_top_left</item_id>
+    <item_title>Slideshow Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>monochromepro_top_right</item_id>
+    <item_title>Top Right Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>8</id>
+    <item_id>monochromepro_mid_left</item_id>
+    <item_title>Middle Left Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>9</id>
+    <item_id>monochromepro_mid_right</item_id>
+    <item_title>Middle Right Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>10</id>
+    <item_id>monochromepro_bottom_1</item_id>
+    <item_title>Bottom First Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>monochromepro_bottom_2</item_id>
+    <item_title>Bottom Second Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>monochromepro_bottom_3</item_id>
+    <item_title>Bottom Third Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>monochromepro_bottom_4</item_id>
+    <item_title>Bottom Fourth Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>monochromepro_bottom_5</item_id>
+    <item_title>Bottom Fifth Category</item_title>
+    <item_desc></item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>fonts</item_id>
+    <item_title>Fonts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>gpp_google_font</item_id>
+    <item_title>Font Parameter</item_title>
+    <item_desc>Add your desired font from &amp;lt;a href=&amp;quot;http://www.google.com/webfonts&amp;quot; target=&amp;quot;_blank&amp;quot; &amp;gt;Google Font Directory&amp;lt;/a&amp;gt;. Example: Droid+Serif</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>gpp_google_font_family</item_id>
+    <item_title>Font Family</item_title>
+    <item_desc>Integrate the fonts into your CSS by adding the CSS-friendly font family name. For example: Droid Serif.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>gpp_google_font_weight</item_id>
+    <item_title>Font Weight</item_title>
+    <item_desc>If applicable, specify your desired font weight here. For example: 400</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>gpp_google_fonts_all</item_id>
+    <item_title>Apply Fonts to all</item_title>
+    <item_desc>Check this option to apply Google Fonts to entire site. If you do not wish to apply to entire site, you can use it individually in the Custom CSS textarea below.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Yes</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>custom_css</item_id>
+    <item_title>Custom CSS</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>gpp_custom_css</item_id>
+    <item_title>Custom CSS</item_title>
+    <item_desc>Quickly add some CSS to your theme by adding it to this block.</item_desc>
+    <item_type>css</item_type>
+    <item_options>10</item_options>
+    <item_sort>0</item_sort>
+  </row>
+</wp_option_tree>

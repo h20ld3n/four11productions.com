@@ -1,0 +1,329 @@
+
+/* =Responsive Structure
+----------------------------------------------- */
+
+@media screen and (max-width: 850px) {
+	/* Simplify the basic layout */
+	#main #content {
+		margin: 0;
+		width: auto;
+	}
+	#nav-below {
+		margin-bottom: 1.625em;
+	}
+	#main #secondary {
+		float: none;
+		margin: 0 7.6%;
+		width: auto;
+	}
+	/* Simplify the showcase template */
+	.page-template-showcase-php .featured-posts {
+		min-height: 280px;
+	}
+	.featured-posts section.featured-post {
+		height: auto;
+	}
+	.page-template-showcase-php section.recent-posts {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	.page-template-showcase-php #main .widget-area {
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+	/* Simplify the showcase template when small feature */
+	section.featured-post .attachment-small-feature,
+	.one-column section.featured-post .attachment-small-feature {
+		border: none;
+		display: block;
+		float: left;
+		height: auto;
+		margin: 0.625em auto 1.025em;
+		max-width: 30%;
+		position: static;
+	}
+	article.feature-image.small {
+		float: right;
+		margin: 0 0 1.625em;
+		width: 64%;
+	}
+	.one-column article.feature-image.small .entry-summary {
+		height: auto;
+	}
+	article.feature-image.small .entry-summary p a {
+		left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: auto;
+	}
+	/* Remove the margin on singular articles */
+	.singular .entry-header,
+	.singular .entry-content,
+	.singular footer.entry-meta,
+	.singular #comments-title {
+		width: 100%;
+	}
+	/* Simplify the pullquotes and pull styles */
+	.singular blockquote.pull {
+		margin: 0 0 1.625em;
+	}
+	.singular .pull.alignleft {
+		margin: 0 1.625em 0 0;
+	}
+	.singular .pull.alignright {
+		margin: 0 0 0 1.625em;
+	}
+	.singular .entry-meta .edit-link a {
+		left: 0;
+		position: absolute;
+		top: 40px;
+	}
+	.singular #author-info {
+		margin: 2.2em -8.8% 0;
+		padding: 20px 8.8%;
+	}
+	/* Make sure we have room for our comment avatars */
+	.commentlist {
+		width: 100%;
+	}
+	.commentlist > li.comment,
+	.commentlist .pingback {
+		width: auto;
+	}
+	/* And a full-width comment form */
+	#respond {
+		width: auto;
+	}
+	/* No need to float footer widgets at this size */
+	#colophon #supplementary .widget-area {
+		float: none;
+		margin-right: 0;
+		width: auto;
+	}
+	/* No need to float 404 widgets at this size */
+	.error404 #main .widget {
+		float: none;
+		margin-right: 0;
+		width: auto;
+	}
+	/* Make sure embeds fit their containers */
+	embed,
+	object {
+		max-width: 100%;
+	}
+	#main #secondary {
+		clear: both;
+		margin: 0;
+		padding-top: 40px; 
+	}
+	#secondary #search {
+		text-align: center;
+	}
+	#search {		
+		margin-bottom: 30px;
+		padding: 10px;
+	}
+	#s {
+		font-size: 16px;
+		padding: 7px;
+		width: 95%;
+	}
+	aside {
+		float: left;
+		margin: 0px 3% 0 0;
+		padding: 20px 0;
+		width: 48.5%;		
+	}
+	aside ul {
+		margin: 0 20px;
+	}
+	
+	#colophon aside.even {
+		margin-right: 0;
+	}
+	
+	#secondary aside.odd {
+		margin-right: 0;
+	}
+	h3.widget-title {
+		padding: 0 20px;
+	}
+	aside p {
+		padding: 0 20px 20px 20px;
+	}
+	#colophon .widget-3,
+	#colophon .widget-4 {
+		width: 48.5%;
+	}
+	#below_footer {
+		margin-top:0;
+	}
+	#colophon {
+		border: none;
+		margin-top: 0;
+	}
+	#footer-widgets {
+		border: none;
+	}
+}
+@media screen and (max-width: 650px) {
+	/* @media (max-width: 650px) Reduce font-sizes for better readability on smaller devices */
+	body, input, textarea {
+		font-size: 13px;
+	}
+	#site-title a {
+		font-size: 24px;
+	}
+	#site-description {
+		font-size: 12px;
+	}
+	#access ul {
+		font-size: 12px;
+	}
+	article.intro .entry-content {
+		font-size: 12px;
+	}
+	.featured-post .entry-title {
+		font-size: 14px;
+	}
+	.singular .entry-title {
+		font-size: 28px;
+	}
+	blockquote {
+		margin: 0;
+	}
+	blockquote.pull {
+		font-size: 17px;
+	}
+	/* Reposition the site title and description slightly */
+	#site-title {
+		padding: 5.30625em 0 0;
+	}
+	#site-title,
+	#site-description {
+		margin-right: 0;
+	}
+	/* Make sure the logo and search form don't collide */
+	#branding #searchform {
+		top: 1.625em !important;
+	}
+	/* Floated content doesn't work well at this size */
+	.alignleft,
+	.alignright {
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	/* Make sure the post-post navigation doesn't collide with anything */
+	#nav-single {
+		display: block;
+		position: static;
+	}
+	.singular .hentry {
+		padding: 1.625em 0 0;
+	}
+	.singular.page .hentry {
+		padding: 1.625em 0 0;
+	}
+	/* Talking avatars take up too much room at this size */
+	.commentlist > li.comment,
+	.commentlist > li.pingback {
+		margin-left: 0 !important;
+	}
+	.commentlist .avatar {
+		background: transparent;
+		display: block;
+		padding: 0;
+		position: static;
+	}
+	.commentlist .children .avatar {
+		background: none;
+		left: 2.2em;
+		padding: 0;
+		position: absolute;
+		top: 2.2em;
+	}
+	/* Use the available space in the smaller comment form */
+	#respond input[type="text"] {
+		width: 95%;
+	}
+	#respond .comment-form-author .required,
+	#respond .comment-form-email .required {
+		left: 95%;
+	}
+	#content .gallery-columns-3 .gallery-item {
+		width: 31%;
+		padding-right: 2%;
+	}
+	#content .gallery-columns-3 .gallery-item img {
+		width: 100%;
+		height: auto;
+	}
+	aside ul {
+		margin: 0 20px;
+	}
+	#access ul li {
+		width: 50%;
+	}
+	#access ul li li {
+		width: 100%;
+	}
+	#colophon {
+		border: none;
+		margin-top: 0;
+	}
+	h3.entry-format {
+		margin-top: 15px;
+	}
+	#secondary h3.widget-title {
+		padding-top: 0;
+	}
+}
+@media screen and (max-width: 450px) {
+	#content .gallery-columns-2 .gallery-item {
+		width: 45%;
+		padding-right: 4%;
+	}
+	#content .gallery-columns-2 .gallery-item img {
+		width: 100%;
+		height: auto;
+	}
+	#colophon .widget-2,
+	#colophon .widget-3,
+	#colophon .widget-4 {		
+		margin: 0;
+		min-width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	#branding img {
+		max-width: auto;
+		height: auto;
+	}
+	#access ul li,
+	#access ul li li {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	h3.widget-title {
+		padding-top: 20px;
+	}
+	#below_footer {
+		margin-top: 0;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	body {
+		padding: 0 2%;
+	}
+	#page {
+		margin-top: 15px;
+	}
+	#branding {
+		border-top: none;
+	}
+}

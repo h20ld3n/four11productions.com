@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Base Structure</title>
+<style type="text/css">
+body {
+	padding:20px;
+	width:700px;
+	margin:auto;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.clear {
+	clear:both;
+}
+div.border {
+	border:1px solid #999999;
+	padding:10px;
+	margin:5px;
+}
+#content {
+	width:350px;
+	float:left;
+}
+#sidebar {
+	width:250px;
+	float:right;	
+}
+.mainblock {
+	font-weight:bold;
+	color:#333333;
+}
+.fwid {
+	width:119px;
+	float:left;
+}
+span.code {
+	font-style:italic;
+	color:#333333;
+}
+</style>
+</head>
+
+<body>
+<h2>Base Page Structure</h2>
+
+<p>This is an outline of major elements on a Base page. It includes most div elements, theme actions and hooks, and widget areas.</p>
+    <div id="head" class="border">
+        <span class="mainblock">head</span><br />
+        <span class="code">
+        gpp_base_create_doctype(),
+        gpp_base_head_profile(),
+        gpp_base_doctitle(),
+        gpp_base_create_contenttype(),
+        gpp_base_show_description(),
+		gpp_base_css_hook(),        
+        gpp_base_create_stylesheet(),
+        gpp_base_show_rss(),
+        gpp_base_show_pingback()</span>
+    </div>
+
+    <div id="container_12" class="border">
+        <span class="mainblock">body</span><br />
+        
+        <div id="header" class="border">
+            <span class="mainblock">header</span><br />
+           <span class="code">gpp_base_above_header_hook()</span>
+            <div id="masthead" class="border">
+            	<span class="mainblock">masthead</span><br />
+                <span class="code">gpp_base_header_hook()</span>
+           		<div id="logo" class="border">
+                	<span class="mainblock">logo</span> =     <span class="code">gpp_base_header_hook(1)</span>
+                </div>
+                <div id="description" class="border">
+            		<span class="mainblock">description</span> =     <span class="code">gpp_base_header_hook(3)</span>
+            	</div>
+                
+            </div>
+            <span class="code"> gpp_base_below_header_hook()</span>
+            <div id="menu" class="border">
+            <span class="mainblock">menu</span>
+            </div>
+        </div>
+		<div id="appds" class="border">
+        	<span class="mainblock">home widgets</span><br />
+        	<span class="code">gpp_base_home_widgets_hook()</span>
+        </div>
+       	<div id="appds" class="border">
+        	<span class="mainblock">application block</span><br />
+        	<span class="code">gpp_base_apps_hook()</span>
+        </div>
+        <div class="clear"></div>
+        <div id="content" class="border">
+        	<span class="mainblock">content</span>
+            <div id="post" class="border">
+            	<span class="mainblock">post</span><br />
+                <span class="code">gpp_base_above_title_hook()</span>
+                <div id="title" class="border">
+                	<span class="mainblock">title</span>
+                </div>
+                <span class="code">gpp_base_below_title_hook()</span><br />
+				<span class="code">gpp_base_above_content_hook()</span>
+                <div id="entry" class="border">
+                	<span class="mainblock">entry</span>
+                </div>
+				<span class="code">gpp_base_below_content_hook()</span><br />
+                <span class="code">gpp_base_meta_hook()</span>
+            </div>
+            <div id="navigation" class="border">
+            	<span class="mainblock">navigation</span><br />
+                <span class="code">gpp_base_navigation_hook()</span>
+            </div>
+        </div>
+        <div id="sidebar" class="border">
+        	<span class="mainblock">sidebar</span><br />
+        	<span class="code">gpp_base_above_sidebar_hook()</span>
+            <div id="widget" class="border">
+            <span class="mainblock">dynamic widgets</span>
+            </div>
+            <span class="code">gpp_base_below_sidebar_hook()</span>
+        </div>
+        <div class="clear"></div>
+        
+        <div id="footer" class="border">
+        	<span class="mainblock">footer</span><br />
+        	<span class="code">gpp_base_above_footer_hook()</span>
+            <div id="footercontent" class="border">
+            	<span class="code">gpp_base_footer_hook()</span><br />
+                <div id="widget1" class="border fwid"><span class="mainblock">widget-1</span></div>
+				<div id="widget2" class="border fwid"><span class="mainblock">widget-2</span></div>
+				<div id="widget3" class="border fwid"><span class="mainblock">widget-3</span></div>
+				<div id="widget4" class="border fwid"><span class="mainblock">widget-4</span></div>
+            <div class="clear"></div>
+            </div>
+            <span class="code">gpp_base_below_footer_hook()</span>
+        </div>
+		<div id="footer" class="border">
+        	<span class="mainblock">credits</span><br />
+        	<span class="code">gpp_base_footer_credits_hook()</span>            
+        </div>
+    </div>
+
+</body>
+</html>

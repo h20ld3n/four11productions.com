@@ -1,0 +1,22 @@
+/*IE hack
+--------------------------------------------------------------------------*/
+
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+
+* html #content1 {
+width:920px;
+font-family:verdana, arial, times;
+font-size:10px;
+
+}
+ 
+* html .post1  {
+line-height:14pt;
+margin:0px;
+float:left; 
+width: 216px;
+display: inline;
+padding:6px;
+  }
+ 
+/* End hide from IE5/mac */

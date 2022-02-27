@@ -1,0 +1,185 @@
+/*
+Theme Name: Accountant
+Theme URI: http://www.mbwebdesign.co.uk/templates/wordpress
+Description: This is a theme by Mathew Browne of <a href="http://www.mbwebdesign.co.uk">MB Web Design</a>. Theme is widget- and Gravatar- ready, compatible with Wordpress 2.3 to 2.6. Designed for financial and business blogs.
+Version: 1.0.1
+Tags: blue, navy, professional, business, finance, financial, SEO, gravatar, accountant, gravatars, no sidebar, fixed width, simple, valid CSS, valid XHTML, w3c, widget ready, widgets, footer, footer navigation, clean, fresh, dark, 1 column, one column
+Author: Mathew Browne, MB Web Design
+Author URI: http://www.mbwebdesign.co.uk
+Latest updated: October 1, 2008
+*/
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+}
+ol, ul {
+	list-style: none;
+}
+
+caption{
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* END CSS RESET */
+
+html{
+	background-color:#203940  ;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.makewidth, #container, .sidebar{width:900px; margin:0px auto;}
+#wrapper{margin:0px auto;
+font-size:0.7em;
+line-height:1.4em;}
+
+#header{font-size:1.1em;margin:0px auto;padding:15px 0px 10px 0px; background-color:#142A30; border-bottom: 30px solid #193138;margin-bottom:10px; color:white;}
+
+#container{
+	color:#FFFFFF;
+	font-size:1.1em;
+	margin-bottom:19px;
+}
+
+#container blockquote{margin:0;padding:5px; background-color:#2B454D;}
+
+.post {padding-bottom:30px;}
+
+.clearboth,.xoxo{clear:both;}
+.clearleft{clear:left; width:500px; height:100px; background-color:#FFFF00}
+.clearright{clear:right;}
+
+/*  -----|  Typography  |---------------------------------------------------  */
+ a{color:white; text-decoration:none;}
+ a:hover{text-decoration:underline;}
+
+h1, h2, h3, h4, h5, h6, #container blockquote, #wp-calendar caption{margin-bottom:0.8em; font-family: Georgia, 'Times New Roman', serif; font-weight: normal; margin-top:0px; padding-top:0px;line-height:1.3em;}
+h1{font-size:1.7em;}
+h2{font-size:1.4em;}
+h3, #wp-calendar caption{font-size:1.2em;}
+p, #container li{margin-bottom:0.9em;margin-top:0.5em;line-height:1.7em;}
+td{line-height:1.7em; padding:0px 15px 15px 0px;}
+blockquote p{margin-bottom:0px;padding-top:3px;}
+
+#container ul{ list-style-type:disc;padding-left:2em;}
+#container ol{ list-style-type: decimal;padding-left:2em;}
+
+
+h1{ color:#99CCCC; display:block;}
+h1 a,#container h2 a{color:#99CCCC;text-decoration:none;}
+h1 a:hover,#container h2 a:hover{
+	color: #99CC33;
+	text-decoration:none
+}
+h2,h3,h4,h5,h6{
+	color:#99CCCC;
+}
+
+#container .entry-meta{border-top:none;}
+
+h2.entry-title{margin-bottom:0px;}
+
+.entry-date, .readmore{
+	text-decoration:none; text-transform:uppercase; font-size:0.9em;
+	letter-spacing:2px;
+}
+.entry-date, .readmore, .readmore a, #container a{
+	color:#99CCCC;
+}
+
+.sidebar{color:#C1BCAC; background-color:#2B454D    ; border-top:30px solid #243E45  ;padding:10px 0px 10px 0px; width:auto}
+.sidebar ul, .sidebar ul li{list-style-type:none;}
+.sidebar ul{}
+.sidebar ul ul{}
+.sidebar li {display:inline;float:left;clear:right; max-width:120px; margin-right:10px;margin-bottom:10px;}
+.sidebar a{}
+.sidebar ul ul{}
+.sidebar ul li ul li{display:block; float:none; clear:both; margin-bottom:2px;}
+
+#calendar, .widget_calendar, #calendar_wrap{}
+#calendar h3{padding:0; margin:0; display:none}
+#calendar *, .widget_calendar *, #calendar_wrap *{margin:0px; padding:0px;}
+#wp-calendar, .calendar_wrap{text-align:center;}
+#wp-calendar caption{color:#99CCCC;}
+#wp-calendar td,#wp-calendar th{text-align:center; color:white; padding-left:2px;}
+#wp-calendar th{font-weight:bold; color:#FFFFFF}
+#wp-calendar a{color:#99CCCC;display:block; text-align:center}
+#wp-calendar a:hover{color:#99CCCC; background-color:#193138; display:block; text-decoration:none;}
+
+#footer{ text-align:right; padding-top:8px; color:#2B454D}
+#footer a{color:#2B454D;}
+.meta-sep{color:#333333;}
+
+.nav-previous{float:left; width:45%;}
+.nav-next{float:right; width:45%; text-align:right;}
+.nav-previous a, .nav-next a{display:block;padding:3px; color:#99CCCC; }
+.nav-previous a:hover, .nav-next a:hover{  color:white; text-decoration:none;}
+.navigation{margin-bottom:20px;margin-top:20px;}
+
+.entry-meta{border-top:1px solid #262927;margin-top:20px;padding-top:10px;}
+
+abbr{border:none;}
+
+#s{ background-color:#203940; border:none;color:#FFFFFF}
+#searchsubmit{
+	border:none;
+	background:none;
+	color:white;
+	display:block;
+	margin-top:5px;
+	font-size:0.8em;
+	padding:0;
+}
+#searchsubmit:hover{ text-decoration:underline}
+
+#noresults-s,#comment{
+	border:none;
+	background-color:#254149;
+	width:180px;
+	color: #FFFFFF;
+	padding:3px;
+}
+#comment{width:450px;}
+#noresults-searchsubmit{}
+#submit{}
+#noresults-searchsubmit:hover{color:#99CCCC;border:1px solid #C1BCAC;}
+#submit:hover{color:#99CCCC;border:1px solid #C1BCAC;}
+
+.largephoto{float:right;padding:12px; background-color:#193138; border: 5px solid #243E45;margin-left:10px; margin-bottom:10px;}
+
+widget_tag_cloud a{}
+
+.alignright{float:right; margin:10px 0px 5px 10px;padding:12px; background-color:#193138; border: 5px solid #243E45;}
+.alignleft{float:left; margin:10px 10px 5px 0px;padding:12px; background-color:#193138; border: 5px solid #243E45;}
+.aligncenter{margin:10px auto;padding:12px; background-color:#193138; border: 5px solid #243E45;}
+
+.avatar{float:right; padding:5px; border:1px solid #999999; background-color:#FFFFFF;}

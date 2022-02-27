@@ -1,0 +1,770 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid " Archive"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/theme-functions.php:35
+msgid " Older Entries &raquo;"
+msgstr ""
+
+#. Text in function
+#: skeptical/comments.php:23
+msgid "% Responses"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-timeline.php:70
+msgid "% comments"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/theme-functions.php:34
+msgid "&laquo; Newer Entries "
+msgstr ""
+
+#. Text in function
+#: skeptical/template-timeline.php:70
+msgid "0 comments"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-timeline.php:70
+msgid "1 comment"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:60
+msgid "<a href=\"http://www.gravatar.com/\">Gravatar</a> E-mail:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:100
+msgid "<strong>Thanks!</strong> Your email was successfully sent."
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-adspace.php:57
+msgid "Ad Code:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/functions/admin-custom-nav.php:2370
+msgid "Advanced Options:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:85
+msgid "All"
+msgstr ""
+
+#. Text in echo
+#: skeptical/footer.php:100
+msgid "All Rights Reserved."
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-adspace.php:70
+msgid "Alt text:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/archive.php:11
+#: skeptical/archive.php:14
+#: skeptical/archive.php:17
+#: skeptical/archive.php:20
+msgid "Archive"
+msgstr ""
+
+#. Text in echo
+#: skeptical/archive.php:23
+msgid "Archive by Author"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid "Author Archives"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:56
+msgid "Bio:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-archives.php:29
+#: skeptical/template-sitemap.php:24
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid "Category Archive"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-embed.php:100
+msgid "Category:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-tabs.php:26
+#: skeptical/template-sitemap.php:45
+msgid "Comments"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/theme-functions.php:145
+msgid "Comments ( % )"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/theme-functions.php:145
+msgid "Comments ( 0 )"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/theme-functions.php:145
+msgid "Comments ( 1 )"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "Contact Form Submission from "
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-blog.php:54
+#: skeptical/search.php:35
+#: skeptical/index.php:33
+#: skeptical/footer.php:29
+#: skeptical/archive.php:54
+msgid "Continue Reading"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid "Daily Archive"
+msgstr ""
+
+#. Text in echo
+#: skeptical/footer.php:110
+msgid "Designed by"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/theme-comments.php:21
+msgid "Direct link to this comment"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:138
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/theme-comments.php:22
+msgid "Edit"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:152
+#: skeptical/comments.php:98
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: skeptical/single.php:93
+#: skeptical/template-blog.php:112
+#: skeptical/search.php:94
+#: skeptical/index.php:93
+#: skeptical/404.php:8
+#: skeptical/archive.php:113
+msgid "Error 404 - Page not found!"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:48
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "From: "
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:68
+msgid "Gravatar Alignment:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:64
+msgid "Gravatar Size:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:63
+msgid "Group"
+msgstr ""
+
+#. Text in echo
+#: skeptical/header.php:59
+msgid "Home"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:86
+msgid "Home only"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:166
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-adspace.php:62
+msgid "Image Url:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-tabs.php:25
+#: skeptical/includes/widgets/widget-woo-flickr.php:69
+msgid "Latest"
+msgstr ""
+
+#. Text in function
+#: skeptical/comments.php:72
+msgid "Leave a Reply"
+msgstr ""
+
+#. Text in function
+#: skeptical/comments.php:72
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:70
+msgid "Left"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-embed.php:125
+msgid "Limit (optional):"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-twitter.php:48
+msgid "Limit:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-adspace.php:66
+msgid "Link URL:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:88
+msgid "Log out of this account"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:88
+msgid "Logged in as"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:88
+msgid "Logout"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:77
+msgid "Medium"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:159
+msgid "Message"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid "Monthly Archive"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-archives.php:35
+msgid "Monthly Archives"
+msgstr ""
+
+#. Text in echo
+#: skeptical/single.php:39
+#: skeptical/template-blog.php:64
+#: skeptical/search.php:45
+#: skeptical/index.php:43
+#: skeptical/archive.php:64
+msgid "More from this category"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:145
+#: skeptical/comments.php:93
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "Name: $name \\n\\nEmail: $email \\n\\nComments: $comments"
+msgstr ""
+
+#. Text in function
+#: skeptical/comments.php:23
+msgid "No Responses"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:56
+msgid "No comments yet."
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-tabs.php:67
+msgid "Number of posts:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:52
+msgid "Number:"
+msgstr ""
+
+#. Text in function
+#: skeptical/comments.php:23
+msgid "One Response"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-sitemap.php:18
+msgid "Pages"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:23
+msgid "Photos on <span>flick<span>r</span></span>"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-tabs.php:24
+msgid "Popular"
+msgstr ""
+
+#. Text in echo
+#: skeptical/footer.php:110
+msgid "Powered by"
+msgstr ""
+
+#. Text in echo
+#: skeptical/footer.php:21
+msgid "Previous Posts"
+msgstr ""
+
+#. Text in echo
+#: skeptical/archive.php:11
+msgid "RSS for this section"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:70
+msgid "Random"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:75
+msgid "Read More Text (optional):"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:79
+msgid "Read More URL (optional):"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-blog.php:49
+#: skeptical/search.php:30
+#: skeptical/index.php:28
+#: skeptical/archive.php:49
+msgid "Read More..."
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "Reply-To: "
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:71
+msgid "Right"
+msgstr ""
+
+#. Text in echo
+#: skeptical/search-form.php:4
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid "Search Results"
+msgstr ""
+
+#. Text in echo
+#: skeptical/search.php:10
+msgid "Search results for"
+msgstr ""
+
+#. Text in echo
+#: skeptical/search-form.php:3
+msgid "Search..."
+msgstr ""
+
+#. Text in echo
+#: skeptical/functions/admin-custom-nav.php:2335
+msgid "Select Menu:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:165
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+#. Text in echo
+#: skeptical/functions/admin-custom-nav.php:2418
+msgid "Show Top Level Descriptions:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:87
+msgid "Single only"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-embed.php:118
+#: skeptical/includes/widgets/widget-woo-flickr.php:74
+msgid "Size:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-fullwidth.php:28
+#: skeptical/template-tags.php:28
+#: skeptical/page.php:28
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:67
+msgid "Sorting:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:76
+msgid "Square"
+msgstr ""
+
+#. Text in echo
+#: skeptical/header.php:69
+msgid "Subcribe by Email"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:167
+msgid "Submit"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:116
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in echo
+#: skeptical/header.php:71
+msgid "Subscribe to RSS"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid "Tag Archive"
+msgstr ""
+
+#. Text in echo
+#: skeptical/archive.php:26
+msgid "Tag Archives:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-embed.php:113
+msgid "Tag:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-tabs.php:27
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: skeptical/single.php:31
+msgid "Tags: "
+msgstr ""
+
+#. Text in echo
+#: skeptical/functions/admin-custom-nav.php:2438
+msgid "The Custom Menu has not been configured correctly.  Please check your theme settings before adding this widget."
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-archives.php:19
+msgid "The Last 30 Posts"
+msgstr ""
+
+#. Text in echo
+#: skeptical/single.php:94
+#: skeptical/template-blog.php:113
+#: skeptical/search.php:95
+#: skeptical/index.php:94
+#: skeptical/404.php:9
+#: skeptical/archive.php:114
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:134
+msgid "There was an error submitting the form."
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:78
+msgid "Thumbnail"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-tabs.php:72
+msgid "Thumbnail Size (0=disable):"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-adspace.php:53
+msgid "Title (optional):"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-embed.php:96
+#: skeptical/functions/admin-custom-nav.php:2361
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:52
+#: skeptical/includes/widgets/widget-woo-search.php:33
+#: skeptical/includes/widgets/widget-woo-twitter.php:40
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:42
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:60
+msgid "Type:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-flickr.php:62
+msgid "User"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-twitter.php:44
+msgid "Username:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:83
+msgid "Visible Pages:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:103
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/widgets/widget-woo-adspace.php:1
+msgid "Woo - Adspace Widget"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/widgets/widget-woo-blogauthor.php:1
+msgid "Woo - Blog Author Info"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-custom-nav.php:1994
+msgid "Woo - Custom Nav Menu"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/widgets/widget-woo-embed.php:160
+msgid "Woo - Embed/Video"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/widgets/widget-woo-flickr.php:1
+msgid "Woo - Flickr"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/widgets/widget-woo-search.php:1
+msgid "Woo - Search"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/widgets/widget-woo-tabs.php:122
+msgid "Woo - Tabs"
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/widgets/widget-woo-twitter.php:1
+msgid "Woo - Twitter Stream"
+msgstr ""
+
+#. Text in echo
+#: skeptical/functions/admin-custom-nav.php:2390
+msgid "Wrap in container DIV:"
+msgstr ""
+
+#. Text in echo
+#: skeptical/functions/admin-custom-nav.php:2403
+msgid "Wrap in container UL:"
+msgstr ""
+
+#. Text in function
+#: skeptical/functions/admin-functions.php:1032
+msgid "Yearly Archive"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:109
+msgid "You can use these tags"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "You emailed "
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:90
+msgid "You entered an invalid"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "You entered an invalid email address."
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:83
+msgid "You forgot to enter your"
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "You forgot to enter your comments."
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "You forgot to enter your email address."
+msgstr ""
+
+#. Text in function
+#: skeptical/template-contact.php:7
+msgid "You forgot to enter your name."
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:80
+msgid "You must be"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/theme-comments.php:27
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-contact.php:119
+msgid "Your email was successfully sent."
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/theme-comments.php:20
+msgid "at"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/theme-functions.php:143
+msgid "by"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-archives.php:25
+msgid "comments"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/theme-functions.php:144
+msgid "in"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:80
+msgid "logged in"
+msgstr ""
+
+#. Text in echo
+#: skeptical/includes/theme-functions.php:122
+msgid "on "
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:23
+msgid "to"
+msgstr ""
+
+#. Text in echo
+#: skeptical/comments.php:80
+msgid "to post a comment."
+msgstr ""
+
+#. Text in function
+#: skeptical/includes/theme-functions.php:146
+msgid "{ Edit }"
+msgstr ""
+
+#. Text in echo
+#: skeptical/template-sitemap.php:30
+msgid "Posts per category"
+msgstr ""

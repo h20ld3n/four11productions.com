@@ -1,0 +1,71 @@
+== Changelog ==
+These are the changes seen by Uno since it was first available for public download.
+
+= Version 2.0 (Nov 16, 2011) =
+	* Enhancements:
+		** adapted Responsive Design
+		** added gallery shortcode to pull galleries instead of automated addition of attachments.
+		** Blog posts now support Post Formats
+		** Redirection script removed
+		** Theme Options now moved to Appearance menu
+		
+= Version 1.2.1 (June 7, 2011) =	
+	* Bugfix:
+		** Image caption bug fix
+
+= Version 1.2 (June 3, 2011) =
+	* Enhancements:
+		** Added readme.txt file as new instructions menu in admin panel
+		** Update Base language template with WordPress language functions		
+		** Changed few variable names to remove confusion
+		** Adding filter to the widget
+		** Updated some variables to match with Base
+		** Removed the unregister sidebar function
+	
+	* Bugfix:
+		** Leave a comment in blog page solved
+		** Added image caption in case users need it
+		** Pull sticky posts as well on top
+		** Image Caption css added
+		** Increased height of content area as it was conflicting with new video size
+		
+
+= Version 1.1 (March 10, 2011) =
+	* Enhancements:
+		** Renamed hook names to make it compatible with Base 1.1
+		** Automatic update option added with ajax "checking for updates feature".
+		** Credits manipulated from base
+		** Renamed function reflecting uno
+		** Navigation in category
+	
+	* Bugfix:
+		** Check sidebar hook fix
+		** Exclude blog category in navigation
+		
+= Version 1.0.4 (January 22, 2011) =	
+	* Bugfix:
+		** Browse same category bug fixes
+		** Search bug fixed
+				
+= Version 1.0.3 (February 11, 2011) =	
+	* Bugfix:
+		** "leave the comment" bug while comments are off on slideshow bug fix
+		** Blog category posts also showing slideshow bug fixed
+		
+= Version 1.0.2 (January 26, 2011) =	
+	* Bugfix:		
+		** Removed default css load function
+		** Changed base css name links
+		
+= Version 1.0.1 (Janaury 20, 2011) =
+	* Enhancements:
+		** Updated instructions
+		** Standardizing function names
+		** Updated to reflect base function name changes
+		** Adjusting footer options as in base
+		
+	* Bugfix:
+		** Fixed nav hover bg			
+		
+= Version 1.0 (December 17, 2010) =
+	* Initial release

@@ -1,0 +1,9 @@
+/* menu */
+div.menu { float:right;}
+div.menu ul { float:right; }
+div.menu ul li { float:right; }
+div.menu ul li:hover ul,div.menu ul li.sfHover ul { right:0; }
+div.menu ul li li:hover ul,div.menu ul li li.sfHover ul { right:11em; }
+div.menu ul li li li:hover ul,div.menu ul li li li.sfHover ul { right:11em;}
+
+.sf-sub-indicator {	background-image:url('images/arrows-light.rtl.png') !important; }

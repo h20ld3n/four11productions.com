@@ -1,0 +1,8 @@
+/* Default */
+
+@import url("../../../base/library/css/default.css");
+
+
+#commentform #submit:hover, ol.commentlist li div.reply a:hover, .page-link a:hover, div.menu ul a:hover {background: #111;}
+#commentform #submit:hover, ol.commentlist li div.reply a:hover {border: 1px solid #333;color:#fff;}
+blockquote p {color: #333}

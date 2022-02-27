@@ -1,0 +1,61 @@
+@import url("../base/rtl.css");
+
+/* Header */
+#sitename{ float: right; margin: 1px 0 0 30px;  }
+
+#main-container #header #masthead {	float: right; margin: 7px 7px 0 30px;}
+#main-container #header .upmenu{ float:right; }
+.description {float:right;}
+
+/* UP MENU */
+span.infoup, div.infoup, #slidecaption span.active {color:#000; font-size:0; }
+div#showhidearch {margin: 5px 10px 0 40px;float:left}
+#header div#upmenu  {	float:right;}
+#controls-wrapper{left:0;}
+#controls-wrapper div.menu , #header div.menu{right:0px; }
+#header div.menu  { -moz-border-radius-bottomright:0;}
+#header div.menu ul ul.sub-menu {right:90%;}
+div.menu ul li:hover ul, div.menu ul li.sfHover ul {left: 100%;}
+.sf-sub-indicator { left:10px;}
+
+/* Controls */
+#controls-wrapper #controls #thumbnav {float: left;}
+#controls-wrapper #controls #thumbnav a.imgs {float:left; text-indent: 9999em;}
+
+#controls-wrapper #controls {float:left; }
+#controls-wrapper #controls #navblock {float:left;}
+#controls-wrapper #controls #navblock #playnav {float:right;}
+
+#controls-wrapper #controls #navigation{float:right; }
+#controls-wrapper #controls .navigation {float:right;}
+
+
+#controls-wrapper #controls .nav-previous {float:left;}
+
+/*IE7 hack*/
+html>body #controls-wrapper #controls .nav-previous{*float:right;}
+
+#controls-wrapper #controls .nav-next {float:left;}
+
+#controls-wrapper #controls #showhide {float:right;}
+#controls-wrapper #controls #showhide, #controls-wrapper #controls #archivefor{ float:left;}
+
+
+ #gallerytitle{float:left; margin: 0px 10px 0 0;}
+
+
+#controls #slidecaption { margin-right:20px; float:left;}
+	
+/*   Left Right Navigation */
+span.leftnav, span.rightnav { left:0;}
+span.rightnav {left: 50%;}
+
+.content .eachposts{left:20px;}
+#pauseplay.pause{text-indent:9999em;}
+#pauseplay.play{text-indent:9999em;}
+
+a.upmenu, span.showcontent,
+div#showhidearch, #controls-wrapper #controls #thumbnav a.imgs,
+#pauseplay.pause,  #pauseplay.play, 
+#controls-wrapper #controls .nav-previous a, #controls-wrapper #controls .nav-next a, 
+#controls #showhide {background-image: url(images/nav-menu.rtl.png); }*/
