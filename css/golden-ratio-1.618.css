@@ -225,6 +225,9 @@ div p {
     font-weight: 200; }
 
 .container {
+  margin-bottom: 1.6180em; }
+
+.col-md-4{
   margin-bottom: 4.854em; }
 
 container h3 {
